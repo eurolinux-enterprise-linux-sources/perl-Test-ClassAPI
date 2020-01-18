@@ -1,6 +1,6 @@
 Name: 		perl-Test-ClassAPI
 Version: 	1.06
-Release: 	13.1%{?dist}
+Release: 	14%{?dist}
 Summary: 	Provides basic first-pass API testing for large class trees
 License: 	GPL+ or Artistic
 Group: 		Development/Libraries
@@ -68,6 +68,9 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.06-14
+- Mass rebuild 2013-12-27
+
 * Mon Aug 20 2012 Daniel Mach <dmach@redhat.com> - 1.06-13.1
 - Rebuild for perl 5.16
 
